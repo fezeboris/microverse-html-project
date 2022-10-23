@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+#welcome-section{
+    max-width: 900px;
+    height: 100vh;
+    margin: 40px auto;
+    
+}
+.name{
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+.field-of-study{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.field-of-study image{
+   height: 250px;
+   width: 300px;
+}
+#projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.project-heading h1{
+    text-align: center;
+    margin: 20px auto;
+    font-size: 1.3rem;
+}
+.desc{
+    max-width: 700px;
+    margin: 20px auto;
+    text-align: center;
+}
+.project{
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    margin: 0px auto;
+    background: lightblue;
+}
+.project img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.project-tile{
+    font-size: 1.2rem;
+    margin: 10px 0 ;
+    font-weight: bold;
+    
+}
+footer{
+    width: 100%;
+    background: #ccc;
+    padding: 90px ;
+    margin-top: 40px;
+}
+#profile-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#profile-link a{
+    text-decoration: none;
+    margin: 0px 15px;
+    color: black;
+    font-weight: bold;
+    
+}
+
+footer p{
+    text-align: center;
+    margin: 20px auto;
+}
+@media screen and (max-width:  768px)  {
+    #projects{
+    margin: 20px 0 !important;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column !important;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .project-heading h1{
+        text-align: center;
+        margin: 20px auto;
+        font-size: 1.3rem;
+    }
+    .desc{
+        max-width: 600px;
+        margin: 20px auto;
+        text-align: center;
+    }
+    .project{
+        margin: 15px 0px;
+        padding: 15px;
+        
+        background: lightblue;
+    }
+    .project img{
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    .project-tile{
+        font-size: .9rem;
+
+        
+    }
+    footer{
+        width: 100%;
+        background: #ccc;
+        padding: 40px ;
+        margin-top: 20px;
+    }
+    
+
+}
